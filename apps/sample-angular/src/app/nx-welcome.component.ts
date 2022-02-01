@@ -435,7 +435,9 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
             <span> Hello there, </span>
             Welcome sample-angular 👋
           </h1>
+          <my-greeting title="Angular Component from library"></my-greeting>
         </div>
+        <monorepo-inner></monorepo-inner>
 
         <!--  HERO  -->
         <div id="hero" class="rounded">

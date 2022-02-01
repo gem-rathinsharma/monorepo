@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/lib-angular",
+  "sourceRoot": "libs/lib-angular/src",
+  "prefix": "monorepo",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/lib-angular"],
+      "options": {
+        "jestConfig": "libs/lib-angular/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/lib-angular/src/**/*.ts",
+          "libs/lib-angular/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

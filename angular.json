@@ -1,7 +1,12 @@
 {
   "version": 2,
   "projects": {
+    "lib-angular": "libs/lib-angular",
+    "lib-react": "libs/lib-react",
+    "lib-shared": "libs/lib-shared",
     "sample-angular": "apps/sample-angular",
-    "sample-angular-e2e": "apps/sample-angular-e2e"
+    "sample-angular-e2e": "apps/sample-angular-e2e",
+    "sample-react": "apps/sample-react",
+    "sample-react-e2e": "apps/sample-react-e2e"
   }
 }
